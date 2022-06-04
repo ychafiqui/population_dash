@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container > div {
+    margin: 10px;
+}
